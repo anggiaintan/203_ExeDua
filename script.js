@@ -8,7 +8,6 @@ function sendData(event) {
     var birthdate = document.getElementById("birthdate").value;
     var gender = document.getElementById("gender").value;
   
-    
     var alertMessage =
       "Nama: " + name +
       "\nBirthdate: " + birthdate +
@@ -16,3 +15,17 @@ function sendData(event) {
       "\nGhibli: " + ghibli +
       "\nDeskripsi: " + deskripsi +
       "\nPesan: " + pesan;
+
+      alert(alertMessage);
+  
+    var data = {
+      nama: name,
+      ghibli: ghibli,
+      pesan: pesan,
+      deskripsi: deskripsi,
+      birthdate: birthdate,
+      gender: gender
+    };
+  
+    localStorage.setItem("formData", JSON.stringify(data));
+  }
