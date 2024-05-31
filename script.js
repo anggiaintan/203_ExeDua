@@ -8,3 +8,11 @@ function sendData(event) {
     var birthdate = document.getElementById("birthdate").value;
     var gender = document.getElementById("gender").value;
   
+    
+    var alertMessage =
+      "Nama: " + name +
+      "\nBirthdate: " + birthdate +
+      "\nJenis Kelamin: " + gender +
+      "\nGhibli: " + ghibli +
+      "\nDeskripsi: " + deskripsi +
+      "\nPesan: " + pesan;
