@@ -12,7 +12,7 @@ function sendData(event) {
       "Nama: " + name +
       "\nBirthdate: " + birthdate +
       "\nJenis Kelamin: " + gender +
-      "\nGhibli: " + ghibli +
+      "\nFilm Ghibli Favorit: " + ghibli +
       "\nDeskripsi: " + deskripsi +
       "\nPesan: " + pesan;
 
