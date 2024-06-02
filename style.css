@@ -17,12 +17,25 @@ body {
     text-align: center;
     color: #333;
   }
+
+  h2 {
+    font-size: 24px;
+    color:black;
+  }
   
   p {
     margin-bottom: 20px;
+    font-weight: normal;
+  }
+
+  .large-text {
+    font-size: 24px;
     font-weight: bold;
   }
 
+  .normal-text {
+    font-weight: normal;
+  }
   
   .media {
     
